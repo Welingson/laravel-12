@@ -17,10 +17,21 @@ import AppLogoIcon from './app-logo-icon';
 
 const mainNavItems: NavItem[] = [
     {
-        title: 'Dashboard',
-        href: '/dashboard',
+        title: 'Painel',
+        href: '/painel',
         icon: LayoutGrid,
     },
+    {
+        title: 'Usuários',
+        href: '/usuarios',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Postagens',
+        href: '/postagens',
+        icon: LayoutGrid,
+    },
+
 ];
 
 const rightNavItems: NavItem[] = [
