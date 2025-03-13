@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\PostImage;
-use App\Http\Requests\StorePostImageRequest;
-use App\Http\Requests\UpdatePostImageRequest;
+use App\Http\Requests\Post\StorePostImageRequest;
+use App\Http\Requests\Post\UpdatePostImageRequest;
 
 class PostImageController extends Controller
 {

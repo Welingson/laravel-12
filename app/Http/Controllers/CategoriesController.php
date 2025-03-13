@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Categories;
-use App\Http\Requests\StoreCategoriesRequest;
-use App\Http\Requests\UpdateCategoriesRequest;
+use App\Http\Requests\Category\StoreCategoriesRequest;
+use App\Http\Requests\Category\UpdateCategoriesRequest;
 
 class CategoriesController extends Controller
 {
